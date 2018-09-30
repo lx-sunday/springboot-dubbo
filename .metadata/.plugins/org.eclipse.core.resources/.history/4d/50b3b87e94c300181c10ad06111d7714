@@ -1,0 +1,11 @@
+package com.mydubbo.provider.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name="category")
+public class Category implements Serializable{
+
+}

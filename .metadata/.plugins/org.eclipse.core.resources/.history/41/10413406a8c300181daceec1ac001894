@@ -1,0 +1,7 @@
+package com.mydubbo.provider.serviceImp;
+
+import com.mydubbo.api.service.CategoryService;
+
+public class CategoryServiceImpl implements CategoryService{
+
+}

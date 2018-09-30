@@ -1,0 +1,5 @@
+package com.mydubbo.provider.serviceImp;
+
+public class CategoryServiceImpl{
+
+}

@@ -1,0 +1,3 @@
+com\mydubbo\api\model\CategoryVo.class
+com\mydubbo\api\service\CategoryService.class
+com\mydubbo\api\service\DemoService.class

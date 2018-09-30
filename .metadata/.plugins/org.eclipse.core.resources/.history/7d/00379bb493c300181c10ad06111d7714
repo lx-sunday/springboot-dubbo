@@ -1,0 +1,14 @@
+package com.mydubbo.api.entity;
+
+import java.io.Serializable;
+
+@Entity
+@Table(name)
+public class Category implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4462975269887089856L;
+
+}

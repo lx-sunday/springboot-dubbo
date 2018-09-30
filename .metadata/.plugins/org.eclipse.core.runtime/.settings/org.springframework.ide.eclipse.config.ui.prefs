@@ -1,0 +1,9 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/dubbo-demo-provider/src/main/resources/META-INF/spring/dubbo-demo-provider.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/my-dubbo-consumer/src/main/resources/dubbo/dubbo-consumer.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/my-dubbo-provider/src/main/resources/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/my-dubbo-provider/src/main/resources/dubbo-demo-provider.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/my-dubbo-provider/src/main/resources/dubbo-provider.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/my-dubbo-provider/src/main/resources/dubbo/dubbo-provider.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/my-dubbo-provider/src/main/resources/dubbo/my-dubbo-provider.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/my-dubbo-provider/src/main/resources/my-dubbo-provider.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

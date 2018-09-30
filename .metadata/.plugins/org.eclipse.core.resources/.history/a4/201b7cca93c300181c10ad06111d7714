@@ -1,0 +1,5 @@
+package com.mydubbo.api.model;
+
+public class CategoryVo {
+
+}

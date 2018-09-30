@@ -1,0 +1,7 @@
+package com.mydubbo.api.service;
+
+ interface DemoService {
+
+    String sayHello(String name);
+
+}

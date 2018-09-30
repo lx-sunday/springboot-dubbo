@@ -1,0 +1,10 @@
+package com.mydubbo.api.model;
+
+/**
+ * 分类模型
+ * @author lx
+ *
+ */
+public class CategoryVo {
+
+}

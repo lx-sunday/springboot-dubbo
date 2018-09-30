@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+   
+    <!-- provider's application name, used for tracing dependency relationship -->
+    <dubbo:application name="my-dubbo-provider"/>
+
+    <!-- use multicast registry center to export service -->
+    <!-- 采用本地的zookeeper注册中心注册服务 -->
+    <dubbo:registry protocol="zookeeper" address="zookeeper://localhost:2181"/>
+
+    <!-- use dubbo protocol to export service on port 20880 -->
+    <!-- 服务方暴露服务的接口 -->
+    <dubbo:protocol name="dubbo" port="20884"/>
+
+    <!-- declare the service interface to be exported -->
+    <!-- 设置dubbo服务中接口实现的方式 -->
+    <dubbo:service interface="com.mydubbo.api.service.DemoService" 
+            ref="demoService" retries="0" timeout="6000"  />
+    <dubbo:service interface="com.mydubbo.api.service.CategoryService" ref="categoryService" retries="0" timeout="6000" />
+
+    <bean id="demoService" class="com.mydubbo.provider.serviceImp.DemoServiceImpl"></bean>
+    <bean id="categoryService" class="com.mydubbo.provider.serviceImp.CategoryServiceImpl"></bean>
+</beans>

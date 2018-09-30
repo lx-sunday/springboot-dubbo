@@ -1,0 +1,7 @@
+package com.mydubbo.provider.entity;
+
+import java.io.Serializable;
+
+public class Category implements Serializable{
+
+}

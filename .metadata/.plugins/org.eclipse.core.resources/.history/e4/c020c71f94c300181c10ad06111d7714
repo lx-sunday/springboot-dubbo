@@ -1,0 +1,6 @@
+package com.mydubbo.api.service;
+
+public interface CategoryService {
+
+	List<CategoryVo> findList();
+}

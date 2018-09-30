@@ -1,0 +1,5 @@
+package com.mydubbo.provider.dao;
+
+public class CategoryDao {
+
+}

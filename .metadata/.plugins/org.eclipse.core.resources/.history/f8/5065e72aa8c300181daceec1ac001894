@@ -1,0 +1,22 @@
+package com.mydubbo.provider.serviceImp;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.mydubbo.api.model.CategoryVo;
+import com.mydubbo.api.service.CategoryService;
+import com.mydubbo.provider.dao.CategoryDao;
+
+public class CategoryServiceImpl implements CategoryService{
+	
+	@Autowired
+	private CategoryDao dao;
+
+	@Override
+	public List<CategoryVo> findList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

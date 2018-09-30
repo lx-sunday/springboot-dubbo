@@ -1,0 +1,10 @@
+package com.mydubbo.api.service;
+
+import java.util.List;
+
+import com.mydubbo.api.model.CategoryVo;
+
+ interface CategoryService {
+
+	List<CategoryVo> findList();
+}

@@ -1,0 +1,16 @@
+package com.mydubbo.provider.serviceImp;
+
+import java.util.List;
+
+import com.mydubbo.api.model.CategoryVo;
+import com.mydubbo.api.service.CategoryService;
+
+public class CategoryServiceImpl implements CategoryService{
+
+	@Override
+	public List<CategoryVo> findList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
